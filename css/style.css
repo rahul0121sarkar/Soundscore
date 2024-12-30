@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* form and element font  */
+li,a,button,div,label ,input,h2{
+    font-family: "Montserrat",sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color:black;
+    text-decoration: none;
+}
+
+.dt{
+    font-family: "Montserrat",sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color:white;
+    text-decoration: none;
+}
+/* header part nav bar section  */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 12px 4%;
+    /* background-color: #24252A; */
+    background-color:#fff;
+    
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0;
+}
+
+.nav_links li a:hover{
+    color: #0088a9;
+}
+
+
+/* image logo section  */
+.logo{
+    height: 50px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.log{
+    background-color: #0088a9;
+    padding: 14px 28px;
+    border-radius: 50px;
+    border: none;
+    opacity: 0.85;
+    cursor: pointer;
+    transition: all 0.3s ease 0;
+}
+
+.log:hover{
+    opacity: 1;
+    color: white;
+}
+
+
+
+/* crusol comment line  */
+.dt{
+    color: black;
+    font-weight: 600;
+}
+.ht{
+    color: red;
+    font-weight: 600;
+}   
+
+
+/* about image section  */
+.about_img{
+    height: 500px;
+    width: 500px;
+}
+
+.about_us{
+    margin-top: 64px;
+    color: black;
+}
+
+/* registrarion button  */
+.reg{
+    margin-top: 12px;
+    background-color: #0088a9;
+    padding: 12px 28px;
+    border-radius: 22px;
+    border: none;
+    opacity: 0.85;
+    cursor: pointer;
+    transition: all 0.3s ease 0;
+}
+
+.reg:hover{
+    opacity: 1;
+    color: white;
+}
+
+
+/* contact submit button  */
+.regre{
+    margin-top: 12px;
+    background-color: #fff;
+    padding: 12px 28px;
+    border-radius: 22px;
+    border: none;
+    opacity: 0.85;
+    cursor: pointer;
+    transition: all 0.3s ease 0;
+}
+
+.regre:hover{
+    opacity: 1;
+    color: red;
+}
+
+/* message section  */
+.message{
+    background-color: #f1f1f1;
+    margin-top: 55px;
+}
+.message_about{
+    font-size: 24px;
+    font-weight:800;
+    padding: 110px 8%;
+    text-align: center;
+}
+
+/* details message image  */
+.details_img{
+    height: 500px;
+    width: 600px;
+}
+
+.details_h2{
+    padding-top: 90px;
+    line-height: 2;
+    
+}
+
+.details_h2 li{
+ color: #a1a1a2;   
+}
+
+
+
+/* app music partner css  */
+
+.partner{
+ color: #a1a1a2;   
+}
+
+.partner h2{
+    margin-bottom: 32px;
+}
+.brand{
+    display: inline-block;
+    padding: 0 12%;
+    margin-bottom: 33px;
+}
+
+.card{
+    height: 110px;
+    width: 110px;
+    border-radius: 8px;
+    border: none;
+    display: inline-block;
+    transition: 1s;
+    margin-left: 42px;
+    cursor: pointer;
+}
+.card img{
+    width: 100%;
+}
+
+.card:hover{
+    box-shadow: 12px 14px 21px black;
+    /* box-shadow: 12px 14px 21px #a1a1a2; */
+    
+}
+
+/* footer css  */
+
+.foot{
+    background-color:#f1f1f1 ;
+}
+
+.fotlog{
+    margin: 54px 0px;
+} 
+
+.fotli{
+    margin: 54px 0px;
+    padding-left: 168px;
+    line-height: 3;
+    
+}
+
+.fotli li {
+    list-style: none;
+}
+
+.fotli li a{
+    color: #a1a1a2;
+    transition: all 0.3s ease 0;
+}
+
+.fotli li a:hover{
+    color: #0088a9;
+    font-size: 18px;
+    
+}
+
+.add{
+    margin: 54px 0px;
+    padding-left: 80px;
+    color: #a1a1a2;
+   
+}
+
+.add li{
+    list-style: none;
+    color: #a1a1a2;
+    
+}
+
+
+/* registration  */
+
+.sec{
+    max-width: 800px;
+    border-radius: 22px;
+    margin: 88px auto;
+}
+
+/* admin  */
+.hq{
+    z-index: 20000;
+    background-color:white;
+    border-radius: 36px;
+    text-align: center;
+}
+
+/* video  */
+.cardvid{
+    
+    margin-left: -28px;
+    padding: 2px ;
+    width: 400px;
+}
+
+video{
+    pointer-events: none;
+}
